@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+    max-width:100%;
+}
+
+body {
+    font-family: 'Montserrat';    
+}
+
+h1 {
+    font-family: 'Osward Bold';
+}
+
+.container {
+    width:80%;
+    max-width:1200px;
+    margin:0 auto;
+    
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.col {
+    display:flex;
+    flex-direction: column;
+}
+
+.nav {
+    /* background-color: #3B4050; */
+    background-color: #2E323F;
+}
+.nav--container {
+    justify-content: space-between;
+}
+ul {
+    list-style-type: none;    
+}
+.nav--item {
+    font-family: 'Oswald';
+    font-weight: bold;
+    font-size: 1.125rem;
+    color:white;
+    display:inline-block;
+    margin:1.25rem 0rem 1.25rem 2rem;
+    
+}
+.nav--item-button,.rounded-button {
+    background-color: #A59678;
+    border-radius: 1em;
+    color:#FFF;
+    padding:0.25em 1.5em 0.25em 1.5em;
+}
+.rounded-button {
+    font-family: 'Oswald';
+    font-weight: bold;
+    font-size: 1.5rem;
+    color:white;
+    display:inline-block;
+    margin:1.25rem 0 0  0;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.rounded-button:hover, .rounded-button:focus {
+    opacity: .75;
+}
+
+.nav--item-link {
+    text-transform:uppercase;
+    text-decoration:none;
+    color:#FFF;
+}
+.nav--item-link:hover {
+    opacity: .75;
+}
+
+.hero {
+    background-color: #3B4050;
+    min-height:33em;
+}
+
+.hero--left {
+    
+    margin-top:5em;
+}
+.hero--right {
+    
+    display:flex;
+    align-items: flex-end;
+    font-family: 'Montserrat';
+    font-size:1.25em;      
+    color:#FFF;
+    line-height:1.6;
+    
+}
+
+h1 {
+    font-family: 'Oswald';
+    font-weight: bold;
+    font-size:5.5em;
+    color:#FFFFFF;
+    line-height: 1;
+}
+.h1-hilight {
+    color:#A59678;
+} 
+
+.section-two {
+    background-color: #D5D4D9;
+    padding:5em 0 5em 0;
+}
+.section-two--col {
+    padding:0 3em 0 3em;
+}
+.section-two--title {
+    color:#A59678; 
+    font-family: 'Oswald';
+    font-weight:bold;
+    font-size:1.8em;
+    margin-bottom:1em;
+    text-align: center;
+}
+.section-two--text {
+    font-size:1em;
+    color:#6F737F;   
+    text-align: center;
+    line-height:1.5;
+}
+
+
+
+@media (min-width:700px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media (min-width:1000px) {
+    body {
+        background-color: red;
+    }
+}
