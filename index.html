@@ -29,7 +29,7 @@
       </nav>
     </header>
     <section class="hero">
-      <div class="container row">
+      <div class="container row section-hero">
         <div class="hero--left">
           <h1>
             Responseive layouts
@@ -50,8 +50,8 @@
     </section>
 
     <section class="section-two">
-      <div class="container row">
-        <div class="col section-two--col">
+      <div class="container row section-two--container">
+        <div class="section-two--col">
           <h2 class="section-two--title">Mobile-first</h2>
           <p class="section-two--text">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta
@@ -59,7 +59,7 @@
             officiis dolores cum eius aliquam iste quidem error?
           </p>
         </div>
-        <div class="col section-two--col">
+        <div class="section-two--col">
           <h2 class="section-two--title">Efficient</h2>
           <p class="section-two--text">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta
@@ -67,7 +67,7 @@
             officiis dolores cum eius aliquam iste quidem error?
           </p>
         </div>
-        <div class="col  section-two--col">
+        <div class="section-two--col">
           <h2 class="section-two--title">Done Right</h2>
           <p class="section-two--text">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta
@@ -80,38 +80,41 @@
 
     <section class="section-three">
       <div class="section-three--left">
-        <h2>It doesn't have to be so hard</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
-          minus magni consectetur corporis minima aliquam magnam vitae impedit?
-          Sed, odio?
+        <h2 class="section-three--title">It doesn't have to be so hard</h2>
+        <p class="section-three--text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+          temporibus aliquid, quibusdam earum voluptatem optio necessitatibus
+          nobis aperiam, maiores porro non officia maxime nostrum, tempora eum
+          dignissimos perspiciatis amet sunt.
         </p>
         <img src="img/the-image.jpg" title="Papaer Draft" />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
-          minus magni consectetur corporis minima aliquam magnam vitae impedit?
-          Sed, odio?
+        <p class="section-three--text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum qui
+          placeat, fuga atque accusantium blanditiis officia aut tempore veniam
+          et nobis maxime nostrum quisquam assumenda amet tempora obcaecati
+          ipsam reiciendis aliquam, repudiandae inventore ea cupiditate velit.
+          Sed sapiente accusamus aliquam!
         </p>
       </div>
 
       <div class="section-three--right">
         <div class="section-three--right-box">
-          <h3>Break it down</h3>
-          <p>
+          <h3 class="box--title">Break it down</h3>
+          <p class="box--text">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque
             voluptatem quia odit reprehenderit a ad modi quis quaerat.
           </p>
         </div>
         <div class="section-three--right-box">
-          <h3>Work your way up</h3>
-          <p>
+          <h3 class="box--title">Work your way up</h3>
+          <p class="box--text">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque
             voluptatem quia odit reprehenderit a ad modi quis quaerat.
           </p>
         </div>
         <div class="section-three--right-box">
-          <h3>Missing something</h3>
-          <p>
+          <h3 class="box--title">Missing something</h3>
+          <p class="box--text">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque
             voluptatem quia odit reprehenderit a ad modi quis quaerat.
           </p>
@@ -120,13 +123,13 @@
     </section>
 
     <footer class="footer">
-      <div class="container row">
-        <div class="col"><h4>Just scratching the surface</h4></div>
+      <div class="container footer--title">
+        <h4>Just scratching the surface</h4>
       </div>
       <div class="container row">
         <div class="footer--legend">
           <h5>About the company</h5>
-          <p>
+          <p class="footer--subtext">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium
             nobis vitae tenetur iste dolor fugiat.
           </p>
@@ -134,28 +137,50 @@
 
         <div class="footer--links">
           <h5>Getting around</h5>
-          <ul>
-            <li class="footer-item"><a href="#">Home</a></li>
-            <li class="footer-item"><a href="#">About</a></li>
-            <li class="footer-item"><a href="#">Contact</a></li>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a href="#" class="footer-item--link">Home</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-item--link">About</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-item--link">Contact</a>
+            </li>
           </ul>
         </div>
         <div class="footer--links">
           <h5>Other things</h5>
-          <ul>
-            <li class="footer-item"><a href="#">Lorem ipsum</a></li>
-            <li class="footer-item"><a href="#">dolor</a></li>
-            <li class="footer-item"><a href="#">sit amnet</a></li>
-            <li class="footer-item"><a href="#">consectatur</a></li>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a href="#" class="footer-item--link">Lorem ipsum</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-item--link">dolor</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-item--link">sit amnet</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-item--link">consectatur</a>
+            </li>
           </ul>
         </div>
         <div class="footer--links">
           <h5>And more</h5>
-          <ul>
-            <li class="footer-item"><a href="#">Lorem ipsum</a></li>
-            <li class="footer-item"><a href="#">dolor</a></li>
-            <li class="footer-item"><a href="#">sit amnet</a></li>
-            <li class="footer-item"><a href="#">consectatur</a></li>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a href="#" class="footer-item--link">Lorem ipsum</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-item--link">dolor</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-item--link">sit amnet</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-item--link">consectatur</a>
+            </li>
           </ul>
         </div>
       </div>
